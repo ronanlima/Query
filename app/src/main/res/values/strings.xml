@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Query</string>
+
+    <string name="texto_explicativo">Queremos te conhecer um pouco melhor. Podemos fazer algumas perguntas?</string>
+    <string name="texto_agradecimento_wizard">Obrigado pelas respostas. Estamos prontos para começar.</string>
+    <string name="nota_confidencialidade">*Não se preocupe, guardaremos em segredo todas as suas informações.</string>
+    <string name="txt_botao_proximo">Próximo</string>
+    <string name="txt_botao_anterior">Voltar</string>
+    <string name="txt_botao_fim_questionario">OK</string>
+    <string name="txt_botao_revisao_informacoes">Acabou!</string>
+    <string name="msg_fim_questionario">Acabou!</string>
+
+    <string name="titulo_acabou_wizard">Acabou!</string>
+    <string name="cabecalho_leitura_qrcode">Aonde estamos?</string>
+    <string name="txt_tutorial_leitura_qrcode">Localize na entrada da loja, nosso QR CODE e aponte sua câmera.</string>
+    <string name="ajuda_leitura_qrcode">Dificuldades para se localizar?</string>
+    <string name="header_leitura_qrcode">Dificuldades para se localizar?</string>
+    <string name="txt_titulo_estabelecimento">Você está em</string>
+    <string name="txt_local_incorreto">Localização incorreta?</string>
+
+</resources>

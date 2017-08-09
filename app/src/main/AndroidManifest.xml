@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.preco.perdeu.perdeupreco">
+
+    <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode"/>
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Query"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".PerdeuPrecoApplication">
+
+        <activity android:name=".activity.IntroActivity"  android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.MainActivity"  android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.BarCodeActivity"  android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.ListActivity"  android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.WizardActivity"  android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.QrCodeActivity"  android:theme="@style/AppTheme" android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.GpsActivity"  android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.AjudaLocalizacaoActivity"  android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.WelcomeEstabelecimento"  android:screenOrientation="portrait"/>
+
+        <activity android:name="activity.AnyOrientationCaptureActivity"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+
+        <activity android:name=".activity.SplashActivity" android:theme="@style/AppTheme"  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
